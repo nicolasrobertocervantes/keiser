@@ -92,10 +92,14 @@ curl_close($ch);
       <li>&nbsp; Programas de una asignatura a la vez al mes.</li>
       <li>&nbsp; El estudiante está primero. Nuestro enfoque principal es el alumno.</li>
       <li>&nbsp; Cupos limitados. Creemos que la atención individualizada crea un ambiente más apropiado para el aprendizaje.</li>
-      <li>&nbsp; Ofrecemos programas de asociados, licenciaturas, maestrías y doctorados en línea y en español.</li>
+      <li>&nbsp; Ofrecemos programas de asociados, licenciaturas, maestrías octorados en línea y en español.</li>
       <li>&nbsp; Asistencia al alumno. Te ayudamos a encontrar la carrera perfecta para ti.</li>
     </ul>
 	  <p>Keiser University es una de las Universidades privadas más grandes de Florida, EE.UU. <br />El enfoque de sus programas se centra en el estudiante, con planes de estudios que siguen los cambios de la tecnología y las tendencias que demanda el mercado laboral actual.</p>
+
+    <!--<h2>Acreditación</h2>
+    <p>Keiser University está acreditada por the Southern Association of Colleges and Schools Commission on Colleges para otorgar certificados y títulos en los niveles de asociado, licenciatura (bachillerato), maestría, especialidad y doctorado. Las preguntas sobre la acreditación de Keiser University pueden dirigirse por escrito a The Southern Association of Colleges and Schools Commission on Colleges en 1866 Southern Lane, Decatur, Georgia 30033-4097, llamando al (404) 679-4500 o utilizando la información disponible en Sitio web de SACSCOC (<a href="http://www.sacscoc.org" target="_blank">www.sacscoc.org</a>).</p>
+
     <a class="kuSections" href="acreditacion.php">Ver más...</a>-->
 	</section><!-- / #main-content -->
 

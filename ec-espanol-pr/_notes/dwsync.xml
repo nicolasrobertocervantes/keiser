@@ -16,7 +16,7 @@
 <file name="maestria_cs_gerenciales.php" server="10.0.28.182" local="131306238166052900" remote="131306240330000000" Dst="1" />
 <file name="programas.php" server="10.0.28.182" local="131306238166142900" remote="131306240330000000" Dst="1" />
 <file name="thankyou.php" server="10.0.28.182" local="131306238166212900" remote="131306240330000000" Dst="1" />
-<file name="acreditacion.php" server="10.0.17.241/wwroot/m8/" local="133271656870255492" remote="133271658000000000" Dst="2" />
+<file name="acreditacion.php" server="10.0.17.241/wwroot/m8/" local="133305458164662708" remote="133305459000000000" Dst="2" />
 <file name="form.php" server="10.0.17.241/wwroot/m8/" local="133271656875567861" remote="133271658000000000" Dst="2" />
 <file name="thankyou.php" server="10.0.17.241/wwroot/m8/" local="133282014558788923" remote="133282014600000000" Dst="2" />
 <file name="asociado_cod_fac_adm_med.php" server="10.0.17.241/wwroot/m8/" local="133271656872925144" remote="133271658000000000" Dst="2" />
@@ -26,7 +26,7 @@
 <file name="bachillerato_contabilidad.php" server="10.0.17.241/wwroot/m8/" local="133271656868720799" remote="133271658000000000" Dst="2" />
 <file name="doctorado.php" server="10.0.17.241/wwroot/m8/" local="133271656872644299" remote="133271658000000000" Dst="2" />
 <file name="esol.php" server="10.0.17.241/wwroot/m8/" local="133271656872453825" remote="133271658000000000" Dst="2" />
-<file name="index.php" server="10.0.17.241/wwroot/m8/" local="133271656870728281" remote="133271658000000000" Dst="2" />
+<file name="index.php" server="10.0.17.241/wwroot/m8/" local="133305458164003238" remote="133305459000000000" Dst="2" />
 <file name="maestria_adm_empresas.php" server="10.0.17.241/wwroot/m8/" local="133271656870002828" remote="133271658000000000" Dst="2" />
 <file name="maestria_adm_empresas_gerencial.php" server="10.0.17.241/wwroot/m8/" local="133271656870901858" remote="133271658000000000" Dst="2" />
 <file name="maestria_adm_empresas_neg_int.php" server="10.0.17.241/wwroot/m8/" local="133271656874733127" remote="133271658000000000" Dst="2" />
@@ -45,8 +45,6 @@
 <file name="doctorado_filosofia_psicologia_industrial_organizacional.php" server="40.87.69.188/wwroot/m8/" local="133160398665490754" remote="133160404800000000" Dst="1" />
 <file name="esol.php" server="40.87.69.188/wwroot/m8/" local="133009828080000000" remote="133160404800000000" Dst="1" />
 <file name="form.php" server="40.87.69.188/wwroot/m8/" local="133204339612156985" remote="133204404600000000" Dst="1" />
-<file name="form-old.php" server="40.87.69.188/wwroot/m8/" local="133154181562347757" remote="133160404800000000" Dst="1" />
-<file name="index - pr.php" server="40.87.69.188/wwroot/m8/" local="133150848610000000" remote="133160404800000000" Dst="1" />
 <file name="index.php" server="40.87.69.188/wwroot/m8/" local="133204339612595811" remote="133204404600000000" Dst="1" />
 <file name="maestria_administracion_empresas_marketing.php" server="40.87.69.188/wwroot/m8/" local="133160398667077058" remote="133160404800000000" Dst="1" />
 <file name="maestria_adm_empresas.php" server="40.87.69.188/wwroot/m8/" local="133009828080000000" remote="133160404800000000" Dst="1" />
@@ -62,18 +60,14 @@
 <file name="bachillerato_psicologia.php" server="10.0.17.241/wwroot/m8/" local="133271656873388398" remote="133271658000000000" Dst="2" />
 <file name="doctorado_filosofia_psicologia.php" server="10.0.17.241/wwroot/m8/" local="133271656869730751" remote="133271658000000000" Dst="2" />
 <file name="doctorado_filosofia_psicologia_industrial_organizacional.php" server="10.0.17.241/wwroot/m8/" local="133271656868469588" remote="133271658000000000" Dst="2" />
-<file name="form-old.php" server="10.0.17.241/wwroot/m8/" local="133271656869010020" remote="133271658000000000" Dst="2" />
-<file name="index - pr.php" server="10.0.17.241/wwroot/m8/" local="133271656871734197" remote="133271658000000000" Dst="2" />
 <file name="maestria_administracion_empresas_marketing.php" server="10.0.17.241/wwroot/m8/" local="133271656871229394" remote="133271658000000000" Dst="2" />
 <file name="maestria_ciencias_liderazgo_organizacional.php" server="10.0.17.241/wwroot/m8/" local="133271656873066028" remote="133271658000000000" Dst="2" />
 <file name="maestria_ciencias_psicologia.php" server="10.0.17.241/wwroot/m8/" local="133271656875902658" remote="133271658000000000" Dst="2" />
 <file name="asociado_artes_administracion_servicios_salud.php" server="10.0.17.241/wwroot/m8/" local="133282016336900715" remote="133181080200000000" Dst="2" />
 <file name="asociado_artes_contabilidad.php" server="10.0.17.241/wwroot/m8/" local="133282016336904373" remote="133181080200000000" Dst="2" />
-<file name=".DS_Store" server="10.0.17.241/wwroot/m8/" local="133282016336914341" remote="133181080200000000" Dst="2" />
 <file name="asociado_estudios_generales.php" server="10.0.17.241/wwroot/m8/" local="133282016338596324" remote="133181080200000000" Dst="2" />
 <file name="bachillerato_cs_interdisciplinarias.php" server="10.0.17.241/wwroot/m8/" local="133282016340383860" remote="133181080200000000" Dst="2" />
 <file name="doctorado_filosofia_liderazgo_educacion.php" server="10.0.17.241/wwroot/m8/" local="133282016341794966" remote="133181080200000000" Dst="2" />
-<file name="error_log" server="10.0.17.241/wwroot/m8/" local="133282016343954177" remote="133181080200000000" Dst="2" />
 <file name="maestria_administracion_empresas.php" server="10.0.17.241/wwroot/m8/" local="133282016551686677" remote="133181080200000000" Dst="2" />
 <file name="maestria_cs_liderazgo_educacion.php" server="10.0.17.241/wwroot/m8/" local="133282016553851448" remote="133181080200000000" Dst="2" />
 </dwsync>
