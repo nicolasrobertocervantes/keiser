@@ -75,6 +75,7 @@ de contabilidad y tributarias, indispensables en diversas áreas de especialidad
 y software específico.<br />
 	<br />
     Obtén un título universitario con nuestro Bachillerato en Contabilidad en línea. Contacta a Keiser University en línea para más información.<br /><br />
+    <p style="font-style: italic">Por favor, consulte las leyes locales de cada país, estado o región, para obtener detalles respecto a los requisitos para optar a la certificación de contador público (equivalente a CPA).</p><br />
     <span style="font-size:12px;">*Los candidatos deben poseer un diploma de secundaria (High School/GED) para ingresar al programa.</span>
       <br /><br /><br />
   </section><!-- / #main-content -->
