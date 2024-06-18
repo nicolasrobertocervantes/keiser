@@ -59,7 +59,7 @@
   <section id="main-content">
 <span class="contentSpacer"><br /></span><br />
 	  <h1>Keiser University en Línea</h1><br />
-    <p style="font-weight:bold;">Por más de 35 años, Keiser University ha mantenido una modalidad práctica en la educación de carreras, para así ayudar a los estudiantes a alcanzar sus metas personales y profesionales.</p>
+    <p style="font-weight:bold;">Por más de 40 años, Keiser University ha mantenido una modalidad práctica en la educación de carreras, para así ayudar a los estudiantes a alcanzar sus metas personales y profesionales.</p>
     <p>Para los que busquen cumplir sus objetivos académicos de manera conveniente y flexible, Keiser University eCampus les ofrece la opción más adecuada.</p>
 
     <h2>&iquest;Por qué estudiar en Keiser?</h2>

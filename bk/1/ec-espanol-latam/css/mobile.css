@@ -1,0 +1,448 @@
+body {
+	color: #333;
+	font: 100% Lato, sans-serif;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 320px;
+}
+.sidepic {
+	display: none;
+}
+.sidebar {
+	width: auto;
+}
+
+/* NAV STYLES */
+#mobile-nav {
+	background: #1d3c75;
+	display: block;
+	text-align: center;
+}
+#mobile-nav a {
+	color: #FFF;
+	font: 1em/40px "Open Sans Condensed", sans-serif;
+	padding: 0 0 0 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#mobile-nav .first-nav-item {
+	float: left;
+	margin: 0 0 0 10px;
+	text-align: left;
+}
+#mobile-nav #mobile-nav-menu-button {
+	background: url(../images/menu-icon.png) no-repeat right center;
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 0 35px 0 0;
+}
+#mobile-nav-menu-extended {
+	background-color: #1d3c75;
+	clear: both;
+	display: none;
+}
+#mobile-nav-menu-extended a {
+	display: block;
+	width: 100%;
+}
+#top-nav {
+	display: none;
+}
+
+/* HEADER STYLES */
+header {
+	background: url(../images/header-bg-mobile.png);
+	clear: both;
+	height: 113px;
+}
+#logo {
+	background: url(../images/logos-mobile.png) no-repeat;
+	height: 113px;
+	width: 320px;
+}
+#hdrllamanos {
+	display: none !important;
+}
+#phone-block {
+	background: #cba115;
+	height: auto;
+	padding: 0;
+	width: 320px;
+}
+#mobile-phone-button {
+	background: url(../images/mobile-call-now.png);
+	display: block;
+	height: 50px;
+	width: 320px;
+}
+#phone-block div {
+	display: none;
+	float: left;
+	padding: 0 0 10px 0;
+	width: 155px;
+}
+#desktop_phone_numbers {
+	display: none;
+}
+#phone-block div#mobile_phone_numbers {
+	display: block;
+}
+
+/* FORM STYLES */
+.alertno {
+width: 260px !important;
+}
+#mobile-form-button {
+	/*background: url(../images/mobile-form-button.png);*/
+	clear: both;
+	display: block;
+	height: 65px;
+	width: 320px;
+}
+#form-container {
+	display: none;
+	float: none;
+	height: auto;
+	margin: 0;
+	padding: 10px 20px 20px 20px;
+	width: 280px;
+}
+#form-container h1 {
+	background: none;
+	font-size: 1.75em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#form-container .form-button {
+	display: block;
+	height: 68px;
+	margin: 0 -1px 20px -1px;
+	width: 282px
+}
+#undergrad-button {
+	background: url(../images/mobile-form-button-undergrad.png);
+}
+#grad-button {
+	background: url(../images/mobile-form-button-grad.png);
+}
+#ecampus-button {
+	background: url(../images/mobile-form-button-ecampus.png);
+}
+#continue-button {
+	background: url(../images/continue-button-mobile.jpg);
+	display: block;
+	height: 51px;
+	margin: 10px 0;
+	width: 280px;
+}
+#btnSubmit {
+	background: url(../images/enviar-button-mobile.jpg);
+	display: block;
+	height: 60px;
+	margin: 10px 0;
+	width: 280px;
+	cursor:pointer;
+}
+
+/* FEATURE STYLES */
+#mobile-feature {
+/*	background: url(../images/feature-mobile.jpg); */
+	height: 183px;
+	margin: auto;
+	width: 320px;
+}
+.docter-health-science #mobile-feature {
+    background: url(../images/feature-doctor-health-mobile.jpg);
+}
+.accounting #mobile-feature {
+	background: url(../images/feature-accounting-mobile.jpg);
+}
+.aquatic #mobile-feature {
+	background: url(../images/feature-aquatic-mobile.jpg);
+}
+.as-culinary-arts #mobile-feature {
+	background: url(../images/feature-as-culinary-arts-mobile.jpg);
+}
+.as-it #mobile-feature {
+	background: url(../images/feature-as-it-mobile.jpg);
+}
+.biotech #mobile-feature {
+	background: url(../images/feature-biotech-mobile.jpg);
+}
+.biomed #mobile-feature {
+	background: url(../images/feature-biomed-mobile.jpg);
+}
+.business #mobile-feature {
+	background: url(../images/feature-business-mobile.jpg);
+}
+.business_analytics #mobile-feature {
+	background: url(../images/feature-business-analytics-mobile.jpg);
+}
+.crimescene #mobile-feature {
+	background: url(../images/feature-crimescene-mobile.jpg);
+}
+.crimjustice #mobile-feature {
+	background: url(../images/feature-crimjustice-mobile.jpg);
+}
+.crimjustice2 #mobile-feature {
+	background: url(../images/feature-crimjustice2-mobile.jpg);
+}
+.culinary #mobile-feature {
+	background: url(../images/feature-culinary-mobile.jpg);
+}
+
+/* New Education Woman Image */
+/*
+.dba #mobile-feature, .msed #mobile-feature, .education-grad-instructional-design-tech #mobile-feature, .education-eds #mobile-feature, .education-cca #mobile-feature, .education-curriculum-instruction #mobile-feature, .education-career-college-admin #mobile-feature, .education-adult-ed #mobile-feature, .msed-leadership #mobile-feature, .education-mba #mobile-feature {
+	background: url(../images/feature-education-woman-mobile.jpg);
+}
+.education-cca #mobile-feature, .education-2 #mobile-feature{
+	background: url(../images/feature-education-woman-2-mobile.jpg);
+}
+
+.education-councelor-supervision #feature {
+    background: url(../images/feature-phd-adult-ed-mobile.jpg);
+}
+
+
+.esol #mobile-feature{
+	background: url(../images/feature-esol-mobile.jpg);
+	}
+.dba #mobile-feature{
+	background: url(../images/feature-dba-mobile.jpg);
+	}
+.dms #mobile-feature{
+	background: url(../images/feature-dms-mobile.jpg);
+	}
+.design #mobile-feature {
+	background: url(../images/feature-design-mobile.jpg);
+}
+.design-graphic-arts #mobile-feature {
+	background: url(../images/feature-design-mobile4.jpg);
+}
+.dietetics_and_nutrition #mobile-feature {
+	background: url(../images/feature-dietetics_and_nutrition-mobile.jpg);
+}
+.education #mobile-feature {
+	background: url(../images/feature-education-mobile.jpg);
+}
+.elementaryeducation #mobile-feature {
+	background: url(../images/feature-elementaryeducation-mobile.jpg);
+}
+.exercise-science #mobile-feature {
+	background: url(../images/feature-exercise-science-mobile.jpg);
+}
+.financial_crime_investigation #mobile-feature {
+	background: url(../images/feature-financialcrimeinvestigation-mobile.jpg);
+}
+.firescience #mobile-feature {
+	background: url(../images/feature-firescience-mobile.jpg);
+}
+.forensicinvestigations #mobile-feature {
+	background: url(../images/feature-forensicinvestigations-mobile.jpg);
+}
+.general #mobile-feature {
+	background: url(../images/feature-general-mobile.jpg);
+}
+.golfmanagement #mobile-feature {
+	background: url(../images/feature-golfmanagement-mobile.jpg);
+}
+.health-info-management #mobile-feature {
+	background: url(../images/feature-health-info-management-mobile.jpg);
+}
+.healthadmin #mobile-feature {
+	background: url(../images/feature-healthadmin-mobile.jpg);
+}
+.health-science #mobile-feature {
+	background: url(../images/feature-health-science-mobile.jpg);
+}
+.histotechnology #mobile-feature {
+	background: url(../images/feature-histotechnology-mobile.jpg);
+}
+.homeland-security #mobile-feature {
+	background: url(../images/feature-homeland-security-mobile.jpg);
+}
+.hospitality #mobile-feature {
+	background: url(../images/feature-hospitality-mobile.jpg);
+}
+.hr #mobile-feature {
+	background: url(../images/feature-hr-mobile.jpg);
+}
+.international #mobile-feature {
+	background: url(../images/feature-international-mobile.jpg);
+}
+.it #mobile-feature {
+	background: url(../images/feature-it-mobile.jpg);
+}
+.itmanagement #mobile-feature {
+	background: url(../images/feature-it-mobile.jpg);
+}
+.it-mgmt #mobile-feature {
+	background: url(../images/feature-it-mgmt-mobile.jpg);
+}
+.information-security #mobile-feature {
+	background: url(../images/feature-information-security-mobile.jpg);
+}
+.kuccel #mobile-feature {
+	background: url(../images/feature-kuccel-mobile.jpg);
+}
+.legal #mobile-feature {
+	background: url(../images/feature-paralegal-mobile.jpg);
+}
+.legal_forensics #mobile-feature {
+	background: url(../images/feature-legal-forensics-mobile2.jpg);
+}
+.massage #mobile-feature {
+	background: url(../images/feature-massage-mobile.jpg);
+}
+.management-leadership #mobile-feature {
+	background: url(../images/feature-management-leadership-mobile.jpg);
+}
+.mba #mobile-feature {
+	background: url(../images/feature-mba-mobile.jpg);
+}
+.medassist #mobile-feature {
+	background: url(../images/feature-medassist-mobile.jpg);
+}
+.medical #mobile-feature, .medical-assisting #mobile-feature {
+	background: url(../images/feature-medical-mobile.jpg);
+}
+.medical-histotechnology #mobile-feature {
+	background: url(../images/feature-histotechnology-mobile.jpg);
+}
+.medlabtech #mobile-feature {
+	background: url(../images/feature-medlabtech-mobile.jpg);
+}
+.mgmt-info-systems #mobile-feature {
+	background: url(../images/feature-mgmt-info-systems-mobile.jpg);
+}
+.msed #mobile-feature {
+	background: url(../images/feature-msed-mobile.jpg);
+}
+/* .msed-leadership #mobile-feature {
+	background: url(../images/feature-msed-mobile.jpg);
+}
+.msn #mobile-feature {
+	background: url(../images/feature-msn-mobile.jpg);
+}
+.msn-grad #mobile-feature {
+	background: url(../images/feature-msn-grad-mobile.jpg);
+}
+.network-systems #mobile-feature {
+	background: url(../images/feature-network-systems-mobile.jpg);
+}
+.nm-med #mobile-feature {
+	background: url(../images/feature-nm-med-mobile.jpg);
+}
+.nursing #mobile-feature {
+	background: url(../images/feature-nursing-mobile-2.jpg);
+}
+.nursing-associate #mobile-feature {
+	background: url(../images/feature-nursing-mobile_1.jpg);
+	background-repeat: no-repeat;
+}
+.occupational-therapy #mobile-feature {
+	background: url(../images/feature-occupational-therapy-mobile.jpg);
+}
+.org-psych #mobile-feature {
+	background: url(../images/feature-org-psych-mobile.jpg);
+}
+.paralegal #mobile-feature {
+	background: url(../images/feature-paralegal-mobile.jpg);
+}
+.physician-assist #mobile-feature {
+	background: url(../images/feature-physician-assist-mobile.jpg);
+}
+.phystherapy #mobile-feature {
+	background: url(../images/feature-phystherapy-mobile.jpg);
+}
+.politicalscience #mobile-feature {
+	background: url(../images/feature-politicalscience-mobile.jpg);
+}
+.psychology #mobile-feature {
+	background: url(../images/feature-org-psych-mobile.jpg);
+}
+.public-safety #mobile-feature {
+	background: url(../images/feature-public-safety-mobile.jpg);
+}
+.radiology #mobile-feature {
+	background: url(../images/feature-radiology3-mobile.jpg);
+}
+.respiratory-therapy #mobile-feature{
+	background: url(../images/feature-respiratory-therapy-mobile.jpg);
+	}
+.social_media #mobile-feature {
+	background: url(../images/feature-social-media-mobile.jpg);
+}
+.software-engineering #mobile-feature {
+	background: url(../images/feature-software-engineering-mobile.jpg);
+}
+.sportsmanagement #mobile-feature {
+	background: url(../images/feature-sportsmanagement2-mobile.jpg);
+}
+.sportmedicine #mobile-feature {
+	background: url(../images/feature-sportmedicine-mobile.jpg);
+}
+.surgical-tech #mobile-feature {
+	background: url(../images/feature-sportmedicine-mobile.jpg);
+}
+.transportation-logistics #mobile-feature{
+    background: url(../images/feature-transportation-logistics-mobile.jpg);
+}
+.undergrad_bs_sport_management #mobile-feature {
+	background: url(../images/feature-sportsmanagement3-mobile.jpg);
+}
+.undergrad_management #mobile-feature, .grad-management #mobile-feature{
+	background: url(../images/feature-undergrad_management-mobile.jpg);
+	}
+.video-game-design #mobile-feature {
+	background: url(../images/feature-video-game-design-mobile.jpg);
+}
+*/
+
+#feature-block, #feature {
+	background-image: none;
+	height: auto;
+}
+#feature {
+	max-width: 320px;
+	min-width: 320px;
+}
+
+/* MAIN CONTENT STYLES */
+#main-content, #secondary-content {
+	padding: 20px 10px 0 10px;
+}
+#secondary-content {
+	padding: 5px 10px 20px 10px;
+	background: #e0e0e0;
+}
+#flashContent {
+	display: none;
+}
+
+/* FOOTER STYLES */
+footer {
+	height: auto;
+	padding: 10px 0;
+}
+footer nav {
+	display: none;
+}
+footer nav#mobile-nav {
+	display: block;
+	margin: 0 auto;
+	width: 320px;
+}
+footer nav#mobile-nav a {
+	display: inline-block;
+	height: auto;
+	line-height: 1.5em;
+}
+
+#call-out.jmba {
+padding: 0px 10px;
+width: 93%;
+}

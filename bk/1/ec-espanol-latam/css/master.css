@@ -1,0 +1,140 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lato:400,700,400italic);
+
+/* DESKTOP */
+@import url(desktop.css) screen and (min-width: 960px);
+
+/* TABLET */
+@import url(tablet.css) screen and (max-width: 959px);
+
+/* MOBILE */
+@import url(mobile.css) screen and (max-width: 767px);
+
+/* UNIVERSAL STYLES */
+/*a {
+	color: #1d3c75;
+}*/
+.l {
+	float: left;
+}
+.r {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+#check {
+	display: none;
+}
+#loading-image {
+	background: url(../images/loading.gif);
+	display: none;
+	height: 32px;
+	margin: 20px auto;
+	width: 32px;
+}
+#readmore {
+	display: none;
+}
+#program-accordion div {
+	display: none;
+}
+#program-accordion h2 {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#program-accordion2 div {
+	display: none;
+}
+#program-accordion2 h3 {
+	cursor: pointer;
+	text-decoration: underline;
+	text-indent: 1em;
+}
+h3.headline{
+	color: #333333;
+    font-size:1.5em !important;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+}
+#call-out,#open-house{
+	background:#3CF;
+	color:#fff; 
+	display: block;
+	font-size: 1.25em;
+	font-weight:bold;
+	height:auto;
+	margin-bottom:15px;
+	padding: 5px 0;
+	text-align: center;
+	text-decoration:none;
+	width:100%; 
+	}
+
+#call-out.jmba {
+background: #3ecc5c;
+
+}
+
+#open-house {
+	background:#f19900;
+}
+#open-house span {
+	color:#fff; 
+	font-size: 20px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#call-out p,#open-house p{margin:0; padding:0; font-size:.75em; font-weight:normal;}
+.more { cursor:pointer; display:block; font-weight:bold; text-align: right; }
+.mtop-40 { margin-top:-40px; }
+
+.alertno {
+background: #fff;
+padding: 10px;
+position: absolute;
+max-width: 307px;
+width: 54%;
+font-size: 18px;
+color: red;
+display: block;
+}
+
+#ccna-badge {
+    width: 167px;
+    height: 127px;
+    background: #ffffff url(../images/ccne.png) no-repeat center;
+    margin-bottom: 10px;
+}
+
+#non-profit-indicator {
+    text-align: center;
+}
+
+#non-profit-indicator h3 {
+    font: 800 1.25em/1em "Open Sans Condensed", sans-serif;
+    line-height: 1.2em;
+}
+
+/* dropdown going off of the page fix */
+#Form1 .rn,
+#Form1 #ed_level {clear:both;}
+#Form1 {text-align: left;}
+
+#Form1 .fieldfix {height: 1.4em; position: relative; margin-bottom: 1em;}
+#Form1 #CurriculumID {position: absolute; right:0;}
+#Form1 #CurriculumID.iefffix {min-width:100%; width:auto!important; max-width: 400%!important;}
+
+#form-step-1 {overflow:hidden; width: 100%;}
+@-moz-document url-prefix() {
+    #Form1 .iefffix {min-width:100%; width:auto!important; max-width: 400%!important; }
+}
+
+#call-out.crash {
+background: #ab0000;
+}
+
+
+h4.availability.dieticians {
+font-size: 18px;
+font-style: italic;
+}
