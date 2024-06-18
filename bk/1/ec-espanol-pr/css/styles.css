@@ -1,0 +1,687 @@
+/* Style Sheet for Keiser University */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: 0 0 15px;
+}
+
+ul {
+	list-style-position: inside;
+	padding-bottom: 15px;
+}
+
+ul li {
+	list-style-type: disc;
+	padding: 0 0 5px 25px;
+}
+
+ul li ul li {
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+hr {
+	margin: 15px 0 30px;
+	border-color: #a8a8a8;
+	border-style: solid;
+	border-width: 1px 0 0;
+}
+
+select {
+	height: 31px;
+}
+
+/*select, input{ border:1px solid #ccc; }*/
+select option {
+	font-size: 12px;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content: '.';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	zoom: 1;
+	clear: both;
+}
+
+p.quote>a {
+	display: block;
+	text-indent: 0;
+	text-decoration: none;
+}
+
+p.quote>span.more {
+	display: none;
+	font-weight: normal;
+	margin-left: -6px;
+	background: #e0e0e0;
+}
+
+/*--header--*/
+#header-container {
+	background: url('../images/keiser_logo.png') left center no-repeat;
+}
+
+#logo {
+	margin-left: 95px;
+}
+
+#feature:after {
+	content: 'ACREDITADO EN LOS EE.UU. SIN IMPORTAR EL PAÍS EN DONDE VIVAS.';
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #1d3c75;
+	bottom: 35px;
+	padding: 10px 10px 10px 75px;
+	width: 1015px;
+	margin-top: -80px;
+	display: block;
+	font: 700 1.2em/26px "Open Sans Condensed", sans-serif;
+}
+
+/*--main content--*/
+#main-content h2 {
+	margin-top: 10px;
+}
+
+/*---solicitud---*/
+#non-profit-indicator {
+	font-size: .85em;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+#non-profit-indicator small {
+	font-weight: bold;
+}
+
+.privacy-policy {
+	text-align: left;
+	width: 210px;
+	padding-left: 35px;
+}
+
+/*---sidebar--*/
+#secondary-content {
+	font-size: 99%;
+}
+
+#secondary-content h2 {
+	color: #3582AC;
+}
+
+#secondary-content ul {
+	padding-bottom: 10px;
+}
+
+#secondary-content li {
+	padding-left: 20px;
+}
+
+#secondary-content li.h3 {
+	font: 700 1.5em/1em "Open Sans Condensed", sans-serif;
+	text-transform: uppercase;
+	list-style-type: none;
+	padding-left: 0;
+	padding-bottom: 12px;
+	padding-top: 10px;
+}
+
+#secondary-content li.h3:first-child {
+	padding-top: 0;
+}
+
+#secondary-content p.quote {
+	padding-top: 0;
+}
+
+/*--hoome page--*/
+
+@media screen and (min-width: 960px) {
+	.home #feature {
+		background-image: url('../header/desktop/home01.jpg');
+	}
+
+	.programas #feature {
+		background-image: url('../header/desktop/programas01.jpg');
+	}
+
+	.licecontabilidad #feature {
+		background-image: url('../header/desktop/licecontabilidad01.jpg');
+	}
+
+	.asociadocsasistenciamedica #feature {
+		background-image: url('../header/desktop/asociado_cs_asistencia_medica01.jpg');
+	}
+
+	.asociado_cod_fac_adm_med #feature {
+		background-image: url('../header/desktop/asociado_cod_fac_adm_med01.jpg');
+	}
+
+	.maestria_adm_empresas_gerencial #feature {
+		background-image: url('../header/desktop/maestria_adm_empresas_gerencial01.jpg');
+	}
+
+	.maestria_adm_empresas_neg_int #feature {
+		background-image: url('../header/desktop/maestria_adm_empresas_neg_int01.jpg');
+	}
+
+	.acreditacion #feature {
+		background-image: url('../header/desktop/acreditacion01.jpg');
+	}
+
+	.doctorado #feature {
+		background-image: url('../header/desktop/doctorado01.jpg');
+	}
+
+	.esol #feature {
+		background-image: url('../header/desktop/esol01.jpg');
+	}
+
+	.lic #feature {
+		background-image: url('../header/desktop/licenciatura01.jpg');
+	}
+
+	.lic_adm #feature {
+		background-image: url('../header/desktop/licenciatura02.jpg');
+	}
+
+	.lic_ss #feature {
+		background-image: url('../header/desktop/licenciatura03.jpg');
+	}
+
+	.mas #feature {
+		background-image: url('../header/desktop/maestrias01.jpg');
+	}
+
+	.mas_csg #feature {
+		background-image: url('../header/desktop/maestrias02.jpg');
+	}
+
+	.mas_mba #feature {
+		background-image: url('../header/desktop/maestrias03.jpg');
+	}
+
+	.doctoradofilosofiapsicoindorg #feature {
+		background-image: url('../header/desktop/PHD_Organizational_Psych_desktop.png');
+	}
+
+	.doctoradofilosofiapsicologia #feature {
+		background-image: url('../header/desktop/PHD_Psychology_desktop.png');
+	}
+
+	.licenciaturaadmininformatica #feature {
+		background-image: url('../header/desktop/Bachelor_IT_Management_desktop.png');
+	}
+
+	.licenciaturapsicologia #feature {
+		background-image: url('../header/desktop/Bachelor_Psychology_desktop.png');
+	}
+
+	.maestriacienciaslidorg #feature {
+		background-image: url('../header/desktop/Masters_Organizational_Leadership_desktop.png');
+	}
+
+	.maestriacienciaspsicologia #feature {
+		background-image: url('../header/desktop/Masters_Psychology_desktop.png');
+	}
+
+	.maestriamarketing #feature {
+		background-image: url('../header/desktop/Masters_Business_Marketing_desktop.png');
+	}
+
+	.ascienciastecinformacion #feature {
+		background-image: url('../header/desktop/as_ciencias_tecnologia_info_desktop.png');
+	}
+
+	.asociado_servicios_salud #feature {
+		background-image: url('../header/desktop/asociado_servicios_salud.png');
+	}
+
+	.asociado_artes_contabilidad #feature {
+		background-image: url('../header/desktop/asociado_artes_contabilidad.png');
+	}
+
+	.asociado_estudios_generales #feature {
+		background-image: url('../header/desktop/asociado_estudios_generales.png');
+	}
+
+	.doctorado_filosofia_liderazgo_educacion #feature {
+		background-image: url('../header/desktop/doctorado_filosofia_liderazgo_educacion.png');
+	}
+
+	.licenciatura_cs_interdisciplinarias #feature {
+		background-image: url('../header/desktop/licenciatura_cs_interdisciplinarias.png');
+	}
+
+	.maestria_cs_liderazgo_educacion #feature {
+		background-image: url('../header/desktop/maestria_cs_liderazgo_educacion.png');
+	}
+}
+
+@media screen and (max-width: 959px) {
+
+	.home #feature {
+		background-image: url('../header/tablet/home01.jpg');
+	}
+
+	.programas #feature {
+		background-image: url('../header/tablet/programas01.jpg');
+	}
+
+	.licecontabilidad #feature {
+		background-image: url('../header/tablet/licecontabilidad01.jpg');
+	}
+
+	.asociadocsasistenciamedica #feature {
+		background-image: url('../header/tablet/asociado_cs_asistencia_medica01.jpg');
+	}
+
+	.asociado_cod_fac_adm_med #feature {
+		background-image: url('../header/tablet/asociado_cod_fac_adm_med01.jpg');
+	}
+
+	.maestria_adm_empresas_gerencial #feature {
+		background-image: url('../header/tablet/maestria_adm_empresas_gerencial01.jpg');
+	}
+
+	.maestria_adm_empresas_neg_int #feature {
+		background-image: url('../header/tablet/maestria_adm_empresas_neg_int01.jpg');
+	}
+
+	.acreditacion #feature {
+		background-image: url('../header/tablet/acreditacion01.jpg');
+	}
+
+	.doctorado #feature {
+		background-image: url('../header/tablet/doctorado01.jpg');
+	}
+
+	.esol #feature {
+		background-image: url('../header/tablet/esol01.jpg');
+	}
+
+	.lic #feature {
+		background-image: url('../header/tablet/licenciatura01.jpg');
+	}
+
+	.lic_adm #feature {
+		background-image: url('../header/tablet/licenciatura02.jpg');
+	}
+
+	.lic_ss #feature {
+		background-image: url('../header/tablet/licenciatura03.jpg');
+	}
+
+	.mas #feature {
+		background-image: url('../header/tablet/maestrias01.jpg');
+	}
+
+	.mas_csg #feature {
+		background-image: url('../header/desktop/maestrias02.jpg');
+	}
+
+	.mas_mba #feature {
+		background-image: url('../header/tablet/maestrias03.jpg');
+	}
+
+	#feature:after {
+		display: none;
+	}
+
+	#main-content {
+		margin-bottom: 30px;
+	}
+
+	.doctoradofilosofiapsicoindorg #feature {
+		background-image: url('../header/tablet/PHD_Organizational_Psych_tablet.png');
+	}
+
+	.doctoradofilosofiapsicologia #feature {
+		background-image: url('../header/tablet/PHD_Psychology_tablet.png');
+	}
+
+	.licenciaturaadmininformatica #feature {
+		background-image: url('../header/tablet/Bachelor_IT_Management_tablet.png');
+	}
+
+	.licenciaturapsicologia #feature {
+		background-image: url('../header/tablet/Bachelor_Psychology_tablet.png');
+	}
+
+	.maestriacienciaslidorg #feature {
+		background-image: url('../header/tablet/Masters_Organizational_Leadership_tablet.png');
+	}
+
+	.maestriacienciaspsicologia #feature {
+		background-image: url('../header/tablet/Masters_Psychology_tablet.png');
+	}
+
+	.maestriamarketing #feature {
+		background-image: url('../header/tablet/Masters_Business_Marketing_tablet.png');
+	}
+
+	.ascienciastecinformacion #feature {
+		background-image: url('../header/tablet/as_ciencias_tecnologia_info_tablet.png');
+	}
+
+	.asociado_servicios_salud #feature {
+		background-image: url('../header/tablet/asociado_servicios_salud.png');
+	}
+
+	.asociado_artes_contabilidad #feature {
+		background-image: url('../header/tablet/asociado_artes_contabilidad.png');
+	}
+
+	.asociado_estudios_generales #feature {
+		background-image: url('../header/tablet/asociado_estudios_generales.png');
+	}
+
+	.doctorado_filosofia_liderazgo_educacion #feature {
+		background-image: url('../header/tablet/doctorado_filosofia_liderazgo_educacion.png');
+	}
+
+	.licenciatura_cs_interdisciplinarias #feature {
+		background-image: url('../header/tablet/licenciatura_cs_interdisciplinarias.png');
+	}
+
+	.maestria_cs_liderazgo_educacion #feature {
+		background-image: url('../header/tablet/maestria_cs_liderazgo_educacion.png');
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.home #mobile-feature {
+		background-image: url('../header/mobile/home01.jpg');
+	}
+
+	.programas #mobile-feature {
+		background-image: url('../header/mobile/programas01.jpg');
+	}
+
+	.licecontabilidad #mobile-feature {
+		background-image: url('../header/mobile/licecontabilidad01.jpg');
+	}
+
+	.asociadocsasistenciamedica #mobile-feature {
+		background-image: url('../header/mobile/asociado_cs_asistencia_medica01.jpg');
+	}
+
+	.asociado_cod_fac_adm_med #mobile-feature {
+		background-image: url('../header/mobile/asociado_cod_fac_adm_med01.jpg');
+	}
+
+	.maestria_adm_empresas_gerencial #mobile-feature {
+		background-image: url('../header/mobile/maestria_adm_empresas_gerencial01.jpg');
+	}
+
+	.maestria_adm_empresas_neg_int #mobile-feature {
+		background-image: url('../header/mobile/maestria_adm_empresas_neg_int01.jpg');
+	}
+
+	.acreditacion #mobile-feature {
+		background-image: url('../header/mobile/acreditacion01.jpg');
+	}
+
+	.doctorado #mobile-feature {
+		background-image: url('../header/mobile/doctorado01.jpg');
+	}
+
+	.esol #mobile-feature {
+		background-image: url('../header/mobile/esol01.jpg');
+	}
+
+	.lic #mobile-feature {
+		background-image: url('../header/mobile/licenciatura01.jpg');
+	}
+
+	.lic_adm #mobile-feature {
+		background-image: url('../header/mobile/licenciatura02.jpg');
+	}
+
+	.lic_ss #mobile-feature {
+		background-image: url('../header/mobile/licenciatura03.jpg');
+	}
+
+	.mas #mobile-feature {
+		background-image: url('../header/mobile/maestrias01.jpg');
+	}
+
+	.mas_csg #mobile-feature {
+		background-image: url('../header/mobile/maestrias02.jpg');
+	}
+
+	.mas_mba #mobile-feature {
+		background-image: url('../header/mobile/maestrias03.jpg');
+	}
+	
+	.asociado_servicios_salud #mobile-feature {
+		background-image: url('../header/mobile/asociado_servicios_salud.png');
+	}
+	
+	.asociado_artes_contabilidad #mobile-feature {
+		background-image: url('../header/mobile/asociado_artes_contabilidad.png');
+	}
+	
+	.asociado_estudios_generales #mobile-feature {
+		background-image: url('../header/mobile/asociado_estudios_generales.png');
+	}
+	
+	.doctorado_filosofia_liderazgo_educacion #mobile-feature {
+		background-image: url('../header/mobile/doctorado_filosofia_liderazgo_educacion.png');
+	}
+	
+	.licenciatura_cs_interdisciplinarias #mobile-feature {
+		background-image: url('../header/mobile/licenciatura_cs_interdisciplinarias.png');
+	}
+	
+	.maestria_cs_liderazgo_educacion #mobile-feature {
+		background-image: url('../header/mobile/maestria_cs_liderazgo_educacion.png');
+	}
+
+	header {
+		background: url('../images/header-bg.png');
+		height: 80px;
+	}
+
+	#header-container {
+		background-image: url('../images/keiser_logo_small.png');
+	}
+
+	#logo {
+		margin-left: 0;
+		background: url(../images/full_logo_small.png) no-repeat 70px center;
+		height: 80px;
+	}
+
+	#logo:after {
+		font-size: 18px;
+		margin-left: 160px;
+		width: 125px;
+		margin-top: 25px;
+	}
+
+	.home #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.programas #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.licecontabilidad #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.asociadocsasistenciamedica #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.asociado_cod_fac_adm_med #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestria_adm_empresas_gerencial #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestria_adm_empresas_neg_int #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.doctorado #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.mas #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.mas_csg #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.mas_mba #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.lic #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.lic_adm #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.lic_ss #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.esol #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.acreditacion #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	#feature:after {
+		display: none;
+	}
+
+	.doctoradofilosofiapsicoindorg #mobile-feature {
+		background-image: url('../header/mobile/PHD_Organizational_Psych_mobile.png');
+	}
+
+	.doctoradofilosofiapsicologia #mobile-feature {
+		background-image: url('../header/mobile/PHD_Psychology_mobile.png');
+	}
+
+	.licenciaturaadmininformatica #mobile-feature {
+		background-image: url('../header/mobile/Bachelor_IT_Management_mobile.png');
+	}
+
+	.licenciaturapsicologia #mobile-feature {
+		background-image: url('../header/mobile/Bachelor_Psychology_mobile.png');
+	}
+
+	.maestriacienciaslidorg #mobile-feature {
+		background-image: url('../header/mobile/Masters_Organizational_Leadership_mobile.png');
+	}
+
+	.maestriacienciaspsicologia #mobile-feature {
+		background-image: url('../header/mobile/Masters_Psychology_mobile.png');
+	}
+
+	.maestriamarketing #mobile-feature {
+		background-image: url('../header/mobile/Masters_Business_Marketing_mobile.png');
+	}
+
+	.ascienciastecinformacion #mobile-feature {
+		background-image: url('../header/mobile/as_ciencias_tecnologia_info_mobile.png');
+	}
+
+	.asociado_artes_contabilidad #mobile-feature {
+		background-image: url('../header/mobile/asociado_artes_contabilidad_info_mobile.png');
+	}
+
+	.doctoradofilosofiapsicoindorg #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.doctoradofilosofiapsicologia #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.licenciaturaadmininformatica #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.licenciaturapsicologia #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestriacienciaslidorg #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestriacienciaspsicologia #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestriamarketing #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.ascienciastecinformacion #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.asociado_servicios_salud #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.asociado_artes_contabilidad #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.asociado_estudios_generales #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.doctorado_filosofia_liderazgo_educacion #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.licenciatura_cs_interdisciplinarias #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+
+	.maestria_cs_liderazgo_educacion #feature {
+		background: url('../images/click_solicitar.jpg') no-repeat top center;
+	}
+}
+
+#form-step-3 {
+	display: none;
+	font-size: 14px;
+	color: #3a3a3a;
+	text-align: left !important;
+}
+
+.programasH3 {
+	margin-bottom: 5px !important;
+	font-family: Lato, sans-serif !important;
+	font-size: 17px !important;
+}

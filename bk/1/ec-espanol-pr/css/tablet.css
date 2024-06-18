@@ -1,0 +1,525 @@
+/* GENERAL STYLES */
+body {
+	color: #333;
+	font: 100% Lato, sans-serif;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 768px;
+}
+.sidebar {
+	float: right;
+	width: 327px; /* 367 pixels with 20 pixels of padding */
+}
+#mobile-nav {
+	display: none;
+}
+
+/* HEADER STYLES */
+header {
+	background: url(../images/header-bg.png);
+	height: 100px;
+}
+#logo {
+	background: url(../images/full_logo.png) no-repeat center center;
+	display: block;
+	float: left;
+	height: 100px;
+	padding-left:1.5em;
+	width: 386px;
+}
+#hdrllamanos {
+	background: url(../images/header-llamanos.png) no-repeat center center;
+	display: block;
+	float: right;
+	height: 46px;
+	width: 238px;
+	margin-top: 26px;
+	margin-right: 2px;
+}
+#phone-block {
+	background: url(../images/phone-icon.png) no-repeat 316px center;
+	color: #FFF;
+	font: 700 18px Lato, sans-serif;
+	height: 85px;
+	padding: 15px 20px 0 20px;
+}
+#phone-block .l {
+	margin: 0 10px 0 0;
+	text-align: right;
+}
+#phone-block a {
+	color: #FFF;
+	font-weight: 400;
+	text-decoration: none;
+}
+#mobile_phone_numbers {
+	display: none;
+}
+
+/* FEATURE STYLES */
+#feature-block {
+	background: url(../images/feature-bg.png);
+	height: 500px;
+}
+#feature {
+	/*background: url(../images/slider-tablet1.jpg);*/
+	height: 500px;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 768px;
+}
+
+/*#feature.slide1 { background: url(../images/slider-tablet1.jpg); }
+#feature.slide2 { background: url(../images/slider-tablet7.jpg); }
+#feature.slide3 { background: url(../images/slider-tablet3.jpg); }
+#feature.slide4 { background: url(../images/slider-tablet4.jpg); }
+#feature.slide5 { background: url(../images/slider-tablet5.jpg); }
+#feature.slide6 { background: url(../images/slider-tablet6.jpg); }
+#feature.slide7 { background: url(../images/slider-tablet2.jpg); }*/
+
+.docter-health-science #feature {
+    background: url(../images/feature-doctor-health-tablet.jpg);
+}
+.accounting #feature {
+	background: url(../images/feature-accounting-tablet.jpg);
+}
+.aquatic #feature {
+	background: url(../images/feature-aquatic-tablet.jpg);
+}
+.as-culinary-arts #feature {
+	background: url(../images/feature-as-culinary-arts-tablet.jpg);
+}
+.as-it #feature {
+	background: url(../images/feature-as-it-tablet.jpg);
+}
+.biotech #feature {
+	background: url(../images/feature-biotech-tablet.jpg);
+}
+.biomed #feature {
+	background: url(../images/feature-biomed-tablet.jpg);
+}
+.business #feature {
+	background: url(../images/feature-business-tablet.jpg);
+}
+.business_analytics #feature {
+	background: url(../images/feature-business-analytics-tablet.jpg);
+}
+.crimescene #feature {
+	background: url(../images/feature-crimescene-tablet.jpg);
+}
+.crimjustice #feature {
+	background: url(../images/feature-crimjustice-tablet.jpg);
+}
+.crimjustice2 #feature {
+	background: url(../images/feature-crimjustice2-tablet.jpg);
+}
+.culinary #feature {
+	background: url(../images/feature-culinary-tablet.jpg);
+}
+
+/* New Education Woman Image */
+.msed #feature, .education-grad-instructional-design-tech #feature, .education-eds #feature, .education-curriculum-instruction #feature, .education-career-college-admin #feature, .education-adult-ed #feature, .msed-leadership #feature, .education-mba #feature {
+	background: url(../images/feature-education-woman-tablet.jpg);
+}
+
+.education-councelor-supervision #feature {
+    background: url(../images/feature-phd-adult-ed-tablet.jpg);
+}
+
+.education-cca #feature, .education-2 #feature{
+	background: url(../images/feature-education-woman-2-tablet.jpg);
+}
+.esol #feature{
+	background: url(../images/feature-esol-tablet.jpg);
+	}
+.dba #feature{
+	background: url(../images/feature-dba-tablet.jpg);
+	}
+.dms #feature{
+	background: url(../images/feature-dms-tablet.jpg);
+	}
+.design #feature {
+	background: url(../images/feature-design-tablet.jpg);
+}
+.design-graphic-arts #feature {
+	background: url(../images/feature-design-tablet4.jpg);
+}
+.dietetics_and_nutrition #feature {
+	background: url(../images/feature-dietetics_and_nutrition-tablet.jpg);
+}
+.education #feature {
+	background: url(../images/feature-education-tablet.jpg);
+}
+.elementaryeducation #feature {
+	background: url(../images/feature-elementaryeducation-tablet.jpg);
+}
+.exercise-science #feature {
+	background: url(../images/feature-exercise-science-tablet.jpg);
+}
+.financial_crime_investigation #feature {
+	background: url(../images/feature-financialcrimeinvestigation-tablet.jpg);
+}
+.firescience #feature {
+	background: url(../images/feature-firescience-tablet.jpg);
+}
+.forensicinvestigations #feature {
+	background: url(../images/feature-forensicinvestigations-tablet.jpg);
+}
+.general #feature {
+	background: url(../images/feature-general-tablet.jpg);
+}
+.golfmanagement #feature {
+	background: url(../images/feature-golfmanagement-tablet.jpg);
+}
+.health-info-management #feature {
+	background: url(../images/feature-health-info-management-tablet.jpg);
+}
+.healthadmin #feature {
+	background: url(../images/feature-healthadmin-tablet.jpg);
+}
+.health-science #feature {
+	background: url(../images/feature-health-science-tablet.jpg);
+}
+.histotechnology #feature {
+	background: url(../images/feature-histotechnology-tablet.jpg);
+}
+.homeland-security #feature {
+	background: url(../images/feature-homeland-security-tablet.jpg);
+}
+.hospitality #feature {
+	background: url(../images/feature-hospitality-tablet.jpg);
+}
+.hr #feature {
+	background: url(../images/feature-hr-tablet.jpg);
+}
+.international #feature {
+	background: url(../images/feature-international-tablet.jpg);
+}
+.it #feature {
+	background: url(../images/feature-it-tablet.jpg);
+}
+.itmanagement #feature {
+	background: url(../images/feature-it-tablet.jpg);
+}
+.it-mgmt #feature {
+	background: url(../images/feature-it-mgmt-tablet.jpg);
+}
+.information-security #feature {
+	background: url(../images/feature-information-security-tablet.jpg);
+}
+.kuccel #feature {
+	background: url(../images/feature-kuccel-tablet.jpg);
+}
+.legal #feature {
+	background: url(../images/feature-paralegal-tablet.jpg);
+}
+.legal_forensics #feature {
+	background: url(../images/feature-legal-forensics-tablet2.jpg);
+}
+.massage #feature {
+	background: url(../images/feature-massage-tablet.jpg);
+}
+.management-leadership #feature {
+	background: url(../images/feature-management-leadership-tablet.jpg);
+}
+.mba #feature {
+	background: url(../images/feature-mba-tablet.jpg);
+}
+.medassist #feature {
+	background: url(../images/feature-medassist-tablet.jpg);
+}
+.medical #feature, .medical-assisting #feature {
+	background: url(../images/feature-medical-tablet.jpg);
+}
+.medical-histotechnology #feature {
+	background: url(../images/feature-histotechnology-tablet.jpg);
+}
+.medlabtech #feature {
+	background: url(../images/feature-medlabtech-tablet.jpg);
+}
+.mgmt-info-systems #feature {
+	background: url(../images/feature-mgmt-info-systems-tablet.jpg);
+}
+/* .msed-leadership #feature {
+	background: url(../images/feature-msed-tablet.jpg);
+} */
+
+.msn #feature {
+	background: url(../images/feature-msn-tablet.jpg);
+}
+.msn-grad #feature {
+	background: url(../images/feature-msn-grad-tablet.jpg);
+}
+.network-systems #feature {
+	background: url(../images/feature-network-systems-tablet.jpg);
+}
+.nm-med #feature {
+	background: url(../images/feature-nm-med-tablet.jpg);
+}
+.nursing #feature {
+	background: url(../images/feature-nursing-tablet-2.jpg);
+}
+.nursing-associate #feature {
+	background: url(../images/feature-nursing-tablet_1.jpg);
+}
+.occupational-therapy #feature {
+	background: url(../images/feature-occupational-therapy-tablet.jpg);
+}
+.org-psych #feature {
+	background: url(../images/feature-org-psych-tablet.jpg);
+}
+.paralegal #feature {
+	background: url(../images/feature-paralegal-tablet.jpg);
+}
+.physician-assist #feature {
+	background: url(../images/feature-physician-assist-tablet.jpg);
+}
+.phystherapy #feature {
+	background: url(../images/feature-phystherapy-tablet.jpg);
+}
+.politicalscience #feature {
+	background: url(../images/feature-politicalscience-tablet.jpg);
+}
+.psychology #feature {
+	background: url(../images/feature-org-psych-tablet.jpg);
+}
+.public-safety #feature {
+	background: url(../images/feature-public-safety-tablet.jpg);
+}
+.radiology #feature {
+	background: url(../images/feature-radiology3-tablet.jpg);
+}
+.respiratory-therapy #feature{
+	background: url(../images/feature-respiratory-therapy-tablet.jpg);
+	}
+.social_media #feature {
+	background: url(../images/feature-social-media-tablet.jpg);
+}
+.software-engineering #feature {
+	background: url(../images/feature-software-engineering-tablet.jpg);
+}
+.sportsmanagement #feature {
+	background: url(../images/feature-sportsmanagement2-tablet.jpg);
+}
+.sportmedicine #feature {
+	background: url(../images/feature-sportmedicine-tablet.jpg);
+}
+.surgical-tech #feature {
+	background: url(../images/feature-surgical-tech-tablet.jpg);
+}
+.transportation-logistics #feature{
+    background: url(../images/feature-transportation-logistics-tablet.jpg);
+}
+.undergrad_bs_sport_management #feature {
+	background: url(../images/feature-sportsmanagement3-tablet.jpg);
+}
+.undergrad_management #feature, .grad-management #feature{
+	background: url(../images/feature-undergrad_management-tablet.jpg);
+	}
+.video-game-design #feature {
+	background: url(../images/feature-video-game-design-tablet.jpg);
+}
+
+
+
+/* FORM STYLES */
+#form-container {
+	background: url(../images/form-bg.png);
+	height: 500px;
+	padding: 0 20px;
+}
+#form-container h1 {
+	color: #1d3c75;
+	font: 700 34px/35px "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	padding: 20px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#form-container h2 {
+	color: #3582ac;
+	font: 700 1.25em/1em "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#form-container p {
+	text-align: center;
+}
+#form-container .form-button {
+	display: block;
+	height: 79px;
+	margin: 0 -1px 20px -1px;
+	width: 329px
+}
+#undergrad-button {
+	background: url(../images/form-button-undergrad.png);
+}
+#grad-button {
+	background: url(../images/form-button-grad.png);
+}
+#ecampus-button {
+	background: url(../images/form-button-ecampus.png);
+}
+.privacy-policy {
+	background: url(../images/lock-icon.png) no-repeat;
+	font-size: .75em;
+	height: 35px;
+	line-height: 17px;
+	margin: 0 auto;
+	padding: 0 0 0 37px;
+	width: 147px;
+}
+select, input {
+	color: #333;
+	font: 1em Lato, sans-serif;
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+select {
+	width: 100%;
+}
+input {
+	width: 96%;
+}
+.half {
+	width: 45%;
+}
+#continue-button {
+	background: url(../images/continue-button.jpg);
+	display: block;
+	height: 60px;
+	margin: 10px 0;
+	width: 327px;
+}
+#form-step-2 {
+	display: none;
+	margin-top: -10px;
+}
+#back-button {
+	background: url(../images/back-button.png);
+	display: block;
+	height: 30px;
+	margin: 0 auto 20px auto;
+	width: 100px;
+}
+.fcc {
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:left !important;
+	line-height: 13px;
+	margin-top: 7px;
+	padding:0;
+}
+#btnSubmit {
+	padding: 0;
+	background: url(../images/enviar-button.jpg);
+	display: block;
+	height: 60px;
+	width: 327px;
+	border:0;
+	cursor:pointer;
+}
+
+/* NAVIGATION STYLES */
+#top-nav {
+	background: #1d3c75;
+	height: 40px;
+	text-align: center;
+}
+#top-nav a {
+	color: #FFF;
+	font: 700 1.0em/40px "Open Sans Condensed", sans-serif;
+	padding: 0 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* MAIN AREA STYLES */
+#main-content {
+	padding: 20px 20px 0 20px;
+}
+#main-content h1 {
+	color: #1d3c75;
+	font: 700 2em/1em "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+#main-content h2 {
+	color: #3582ac;
+	font: 700 1.5em/1em "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+#main-content h3, #secondary-content h3 {
+	font: 700 1.25em/1em "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+#main-content p, #main-content ul, #main-content ol {
+	line-height: 1.5em;
+}
+#main-content p.fine-print {
+	font: 700 12px Lato, sans-serif;
+}
+#flashContent {
+	display: none;
+}
+#secondary-content {
+	padding: 5px 20px 20px 20px;
+	background: #e0e0e0;
+}
+#secondary-content h2 {
+	color: #3582ac;
+	font: 700 1.5em/1em "Open Sans Condensed", sans-serif;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+#secondary-content p {
+	line-height: 1.5em;
+}
+#secondary-content .quote {
+	background: url(../images/opening-quote.png) no-repeat 0 5px;
+	text-indent: 27px;
+}
+#secondary-content .author {
+	font-style: italic;
+	margin: 0 0 2em 0;
+}
+
+/* FOOTER STYLES */
+footer {
+	background: #1d3c75;
+	color: #FFF;
+	height: 90px;
+	padding: 30px 0 0 0;
+	text-align: center;
+}
+footer nav {
+	font: 1em "Open Sans Condensed", sans-serif;
+	word-spacing: 1em;
+}
+footer nav#mobile-nav {
+	display: none;
+}
+footer nav a {
+	color: #FFF;
+	padding: 0 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	word-spacing: normal;
+}
+footer nav a:hover {
+	text-decoration: underline;
+}
+footer .footer-spacer {
+	display: none;
+}
+
+/* New Styles */
+.contentSpacer {
+	display: none;
+}
